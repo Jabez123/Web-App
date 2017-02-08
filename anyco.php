@@ -11,7 +11,7 @@ function do_query($conn, $query) {
   $r = oci_execute($stid,OCI_DEFAULT);
   
   print '<table bord3er="1">';
-  while($row = oci_fetch_array($stid,OCI_RETURM_NULLS)) {
+  while($row = oci_fetch_array($stid,OCI_RETURN_NULLS)) {
     print '<tr>';
     foreach ($row as $item) {
       print '<td>'.
