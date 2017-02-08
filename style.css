@@ -1,7 +1,7 @@
 body {
-  background: #CCCCCFF;
+  background: #CCCCFF;
   color: #000000;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Sans-serif;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
 }
 
 table {
-  paddingg: 5px;
+  padding: 5px;
 }
 
 td {
